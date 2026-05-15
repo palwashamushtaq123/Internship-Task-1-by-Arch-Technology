@@ -1,32 +1,41 @@
 # **Titanic Survival Prediction – Enhanced Version (Internship Upgrade)**
-**Project Overview:**
+
+**Project Overview**
+
 This project is an enhanced version of my previous Titanic Survival Prediction work, developed during my internship.
 In this iteration, I focused on improving feature engineering, adding deeper analysis, and comparing multiple models with better evaluation techniques to gain stronger insights and more reliable predictions.
+
 **What’s New in This Version?**
+
 This project is not a repeat — it includes significant improvements over the previous version:
 
 - Advanced feature engineering
 - Improved model comparison
 - Better evaluation using classification reports & confusion matrices
 - More stable and balanced predictions
+
 **Key Insights (Refined Analysis)**
 - Gender and passenger class remain the strongest survival indicators
 - Females and upper-class passengers had significantly higher survival rates
 - Family presence showed a more structured impact after feature transformation
 - New features revealed hidden survival patterns not captured earlier
-  **Advanced Feature Engineering**
+
+**Advanced Feature Engineering**
 To enhance predictive power, new meaningful features were created:
 
 - FamilySize → Captures total family members onboard
 - IsAlone → Identifies isolated passengers
 - Title Extraction (Mr, Mrs, Miss, etc.) → Captures social status & survival behavior patterns
+
 **These features improved model understanding compared to the previous version.**
 
 **Models Compared (Improved Evaluation)**
+
 Multiple classification models were trained and compared:
 - Logistic Regression (baseline model)
 - Decision Tree (initial insight model)
 - Random Forest (ensemble model)
+
 **Evaluation included:**
 - Classification Report
 - Confusion Matrix
@@ -40,6 +49,7 @@ Multiple classification models were trained and compared:
 **Overall model stability improved compared to previous version**
 
 **Final Conclusion**
+
 This upgraded version demonstrates that:
 - Feature engineering plays a critical role in improving model performance
 - Ensemble methods (Random Forest) outperform single models
@@ -64,4 +74,6 @@ This upgraded version demonstrates that:
 - How to improve an existing ML project instead of repeating it
 
 **Note**
-This is an improved and refined version of my previous Titanic project, showcasing better understanding of data preprocessing, feature engineering, and model evaluation techniques.
+
+This is an improved and refined version of my previous Titanic project, showcasing better understanding of data preprocessing, 
+feature engineering, and model evaluation techniques.
